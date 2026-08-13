@@ -5,6 +5,7 @@
 # print(f"Produto: {catalogo[0][0]}")
 # print(f"Estoque: {catalogo[0][2]} Unidades")
 # print(f"Tamanho: {catalogo[0][3][2]} Cm")
+#catalogo é uma matriz
 
 def cadastrarProduto(catalogo, nome, preco, estoque):
     produto = [nome, preco, estoque]
